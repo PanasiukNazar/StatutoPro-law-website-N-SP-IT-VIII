@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>StatutoPro</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="Free HTML Templates" name="keywords" />
+        <meta content="Free HTML Templates" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/twentytwenty/twentytwenty.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary m-1" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <div class="spinner-grow text-dark m-1" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <div class="spinner-grow text-secondary m-1" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0"
+        >
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0 text-primary">StatutoPro</h1>
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="index.html#about" class="nav-item nav-link"
+                        >Chi Siamo</a
+                    >
+                    <a href="index.html#services" class="nav-item nav-link"
+                        >Servizi</a
+                    >
+                    <a href="index.html#why" class="nav-item nav-link"
+                        >Perché Scegliere Noi</a
+                    >
+                    <a href="index.html#contact" class="nav-item nav-link"
+                        >Contatti</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div
+                    class="modal-content"
+                    style="background: rgba(9, 30, 62, 0.7)"
+                >
+                    <div class="modal-header border-0">
+                        <button
+                            type="button"
+                            class="btn bg-white btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div
+                        class="modal-body d-flex align-items-center justify-content-center"
+                    >
+                        <div class="input-group" style="max-width: 600px">
+                            <input
+                                type="text"
+                                class="form-control bg-transparent border-primary p-3"
+                                placeholder="Cerca assistenza legale in ambito commerciale"
+                            />
+                            <button class="btn btn-primary px-4">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0">
+            <div
+                id="header-carousel"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Immagine"
+                        />
+                        <div
+                            class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+                        >
+                            <div class="p-3" style="max-width: 900px">
+                                <h5
+                                    class="text-white text-uppercase mb-3 animated slideInDown"
+                                >
+                                    Scopri la Nostra Esperienza nell'Assistenza
+                                    Legale
+                                </h5>
+                                <h1
+                                    class="display-1 text-white mb-md-4 animated zoomIn"
+                                >
+                                    Gestisci la tua Attività con Sicurezza e
+                                    Competenza
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Immagine"
+                        />
+                        <div
+                            class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+                        >
+                            <div class="p-3" style="max-width: 900px">
+                                <h5
+                                    class="text-white text-uppercase mb-3 animated slideInDown"
+                                >
+                                    Pianifica con Successo le Operazioni
+                                    Aziendali
+                                </h5>
+                                <h1
+                                    class="display-1 text-white mb-md-4 animated zoomIn"
+                                >
+                                    Registrazione di Società e Creazione di
+                                    Entità Giuridiche
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Precedente</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Successivo</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Banner Start -->
+        <div class="container-fluid banner mb-5">
+            <div class="container">
+                <div class="row gx-0">
+                    <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                        <div
+                            class="bg-primary d-flex flex-column p-5"
+                            style="height: 300px"
+                        >
+                            <h3 class="text-white mb-3">
+                                Fondamenti del Diritto Commerciale
+                            </h3>
+                            <p class="text-white">
+                                Costruisci una solida base nel diritto
+                                commerciale. Scopri i concetti chiave, le
+                                normative aziendali e le strategie legali.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                        <div
+                            class="bg-dark d-flex flex-column p-5"
+                            style="height: 300px"
+                        >
+                            <h3 class="text-white mb-3">
+                                Strategie Legali Avanzate
+                            </h3>
+                            <p class="text-white">
+                                Approfondisci le tecniche avanzate nel diritto
+                                commerciale, la gestione aziendale e le pratiche
+                                di registrazione di società.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                        <div
+                            class="bg-secondary d-flex flex-column p-5"
+                            style="height: 300px"
+                        >
+                            <h3 class="text-white mb-3">
+                                Costruire un'Entità Giuridica Solida
+                            </h3>
+                            <p class="text-white">
+                                Impara come creare e gestire un'entità giuridica
+                                stabile attraverso la registrazione di società e
+                                assistenza legale in ambito commerciale.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner End -->
+
+        <!-- About Start -->
+        <div
+            id="about"
+            class="container-fluid py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-7">
+                        <div class="section-title mb-4">
+                            <h5
+                                class="position-relative d-inline-block text-primary text-uppercase"
+                            >
+                                Chi Siamo
+                            </h5>
+                            <h1 class="display-5 mb-0">
+                                Il Tuo Partner per l'Assistenza Legale in Ambito
+                                Commerciale
+                            </h1>
+                        </div>
+                        <h4 class="text-body fst-italic mb-4">
+                            Scopri la nostra passione e competenza nel mondo del
+                            diritto commerciale
+                        </h4>
+                        <p class="mb-4">
+                            Benvenuti nel nostro studio legale, specializzato in
+                            assistenza legale in ambito commerciale. Offriamo
+                            non solo servizi legali di alta qualità, ma anche un
+                            partenariato basato sulla fiducia, la creatività e
+                            un servizio eccellente. I nostri esperti legali
+                            hanno una vasta esperienza nella registrazione di
+                            società, creazione di entità giuridiche e consulenza
+                            legale per aziende. Siamo consapevoli
+                            dell'importanza di ogni decisione commerciale e ci
+                            dedichiamo a superare le tue aspettative.
+                        </p>
+                        <div class="row g-3">
+                            <div
+                                class="col-sm-6 wow zoomIn"
+                                data-wow-delay="0.3s"
+                            >
+                                <h5 class="mb-3">
+                                    <i
+                                        class="fa fa-check-circle text-primary me-3"
+                                    ></i>
+                                    Esperienza Legale Professionale
+                                </h5>
+                                <h5 class="mb-3">
+                                    <i
+                                        class="fa fa-check-circle text-primary me-3"
+                                    ></i>
+                                    Servizi Legali Personalizzati
+                                </h5>
+                            </div>
+                            <div
+                                class="col-sm-6 wow zoomIn"
+                                data-wow-delay="0.6s"
+                            >
+                                <h5 class="mb-3">
+                                    <i
+                                        class="fa fa-check-circle text-primary me-3"
+                                    ></i>
+                                    Approcci Creativi al Diritto Commerciale
+                                </h5>
+                                <h5 class="mb-3">
+                                    <i
+                                        class="fa fa-check-circle text-primary me-3"
+                                    ></i>
+                                    Focus sul Cliente
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5" style="min-height: 500px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute w-100 h-100 rounded wow zoomIn"
+                                data-wow-delay="0.9s"
+                                src="img/about.jpg"
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="py-5">
+                    <h1 class="display-5 text-dark mb-4 text-center">
+                        Il Nostro Blog
+                    </h1>
+                    <p class="text-dark text-center">
+                        Rimani informato con il nostro blog legale. Condividiamo
+                        informazioni preziose, strategie legali e consulenze
+                        esperte per aiutarti a navigare nel mondo del diritto
+                        commerciale. Il nostro obiettivo è offrire articoli
+                        approfonditi e risorse per espandere le tue conoscenze e
+                        prendere decisioni legali informate.
+                    </p>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-12">
+                        <div
+                            class="owl-carousel price-carousel wow zoomIn"
+                            data-wow-delay="0.9s"
+                        >
+                            <div class="price-item pb-4">
+                                <div class="position-relative">
+                                    <img
+                                        class="img-fluid rounded-top"
+                                        src="img/blog-1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    class="position-relative text-center bg-light border-bottom border-primary py-5 p-4"
+                                >
+                                    <h4>
+                                        I Fondamenti del Diritto Commerciale
+                                    </h4>
+                                    <hr
+                                        class="text-primary w-50 mx-auto mt-0"
+                                    />
+                                    <p>
+                                        Scopri i principi essenziali del diritto
+                                        commerciale, dalla comprensione delle
+                                        normative aziendali alla gestione della
+                                        registrazione di società.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="price-item pb-4">
+                                <div class="position-relative">
+                                    <img
+                                        class="img-fluid rounded-top"
+                                        src="img/blog-2.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    class="position-relative text-center bg-light border-bottom border-primary py-5 p-4"
+                                >
+                                    <h4>Strategie Legali per le Aziende</h4>
+                                    <hr
+                                        class="text-primary w-50 mx-auto mt-0"
+                                    />
+                                    <p>
+                                        Scopri strategie legali efficaci per la
+                                        gestione aziendale, dalla creazione di
+                                        un'entità giuridica alla consulenza in
+                                        ambito commerciale.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="price-item pb-4">
+                                <div class="position-relative">
+                                    <img
+                                        class="img-fluid rounded-top"
+                                        src="img/blog-3.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    class="position-relative text-center bg-light border-bottom border-primary py-5 p-4"
+                                >
+                                    <h4>
+                                        Creazione e Registrazione di Società
+                                    </h4>
+                                    <hr
+                                        class="text-primary w-50 mx-auto mt-0"
+                                    />
+                                    <p>
+                                        Impara come registrare una società e
+                                        creare un'entità giuridica solida per la
+                                        tua attività, seguendo le normative e le
+                                        procedure legali.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Service Start -->
+        <div
+            id="services"
+            class="container-fluid py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row g-5 mb-5">
+                    <div
+                        class="col-lg-5 wow zoomIn"
+                        data-wow-delay="0.3s"
+                        style="min-height: 400px"
+                    >
+                        <img
+                            style="width: 100%; height: 100%; object-fit: cover"
+                            src="img/before.jpg"
+                            style="object-fit: cover"
+                        />
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="section-title mb-5">
+                            <h5
+                                class="position-relative d-inline-block text-primary text-uppercase"
+                            >
+                                Assistenza Legale in Ambito Commerciale
+                            </h5>
+                            <h1 class="display-5 mb-0">
+                                Servizi di Assistenza Legale Personalizzati per
+                                Risultati Eccellenti
+                            </h1>
+                        </div>
+                        <div class="row g-5">
+                            <div
+                                class="col-md-6 service-item wow zoomIn"
+                                data-wow-delay="0.6s"
+                            >
+                                <div class="rounded-top overflow-hidden">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/service-1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    class="position-relative bg-light rounded-bottom text-center p-4"
+                                >
+                                    <h5 class="m-0">
+                                        Registrazione di Società e Creazione di
+                                        Entità Giuridiche
+                                    </h5>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-6 service-item wow zoomIn"
+                                data-wow-delay="0.9s"
+                            >
+                                <div class="rounded-top overflow-hidden">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/service-2.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    class="position-relative bg-light rounded-bottom text-center p-4"
+                                >
+                                    <h5 class="m-0">
+                                        Gestione Contrattuale e Consulenza
+                                        Legale
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-7">
+                        <div class="row g-5">
+                            <div
+                                class="col-md-6 service-item wow zoomIn"
+                                data-wow-delay="0.3s"
+                            >
+                                <div class="rounded-top overflow-hidden">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/service-3.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    class="position-relative bg-light rounded-bottom text-center p-4"
+                                >
+                                    <h5 class="m-0">
+                                        Assistenza nella Redazione di Contratti
+                                        Commerciali
+                                    </h5>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-6 service-item wow zoomIn"
+                                data-wow-delay="0.6s"
+                            >
+                                <div class="rounded-top overflow-hidden">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/service-4.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    class="position-relative bg-light rounded-bottom text-center p-4"
+                                >
+                                    <h5 class="m-0">
+                                        Consulenza Fiscale e Legale per le
+                                        Imprese
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-5 service-item wow zoomIn"
+                        data-wow-delay="0.9s"
+                    >
+                        <div
+                            class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4"
+                        >
+                            <h3 class="text-white mb-3">
+                                Prenota una Consulenza
+                            </h3>
+                            <h2 class="text-white mb-0">
+                                statuto_pro@gmail.com
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Appointment Start -->
+        <div
+            class="container-fluid bg-primary bg-appointment my-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-12 py-5">
+                        <div class="py-5">
+                            <h1 class="display-5 text-white mb-4">
+                                La Nostra Passione per l'Assistenza Legale in
+                                Ambito Commerciale
+                            </h1>
+                            <p class="text-white mb-0">
+                                L'assistenza legale non è solo una questione di
+                                norme e leggi; si tratta di prendere decisioni
+                                informate che influenzano il futuro commerciale
+                                delle imprese. La nostra missione è fornire
+                                consulenza che permetta ai nostri clienti di
+                                affrontare con sicurezza le sfide legali.
+                                Attraverso una visione esperta, strategie legali
+                                comprovate e un impegno continuo
+                                nell'aggiornamento, aiutiamo le imprese a
+                                navigare nei complessi ambiti del diritto
+                                commerciale. Che si tratti di assistenza nella
+                                creazione di entità giuridiche o di consulenza
+                                per la redazione di contratti, siamo al fianco
+                                delle imprese in ogni fase del loro percorso
+                                legale.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Appointment End -->
+
+        <!-- Offer Start -->
+        <div
+            id="why"
+            class="container-fluid bg-offer-2 my-5 py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="offer-text text-center rounded p-5">
+                            <h1 class="display-5 text-white">
+                                Perché Scegliere Noi per la Consulenza Legale
+                                Aziendale?
+                            </h1>
+                            <p class="text-white mb-4">
+                                Scegliete noi come partner per la consulenza
+                                legale aziendale perché siamo impegnati a
+                                fornire un servizio di alta qualità e
+                                un'assistenza su misura per le esigenze di ogni
+                                cliente. La nostra passione per il diritto
+                                commerciale ci spinge a offrire ogni consulenza
+                                con creatività e precisione. Ecco alcuni motivi
+                                per cui dovreste sceglierci:
+                            </p>
+                            <p class="text-white">
+                                <strong class="text-dark"
+                                    >Supporto Personalizzato:</strong
+                                >
+                                Comprendiamo che ogni azienda e ogni percorso
+                                legale è unico. Per questo motivo, offriamo
+                                supporto personalizzato, adattato alle vostre
+                                esigenze specifiche. Dalla pianificazione alla
+                                realizzazione, ci assicuriamo che le vostre
+                                aspettative siano sempre superate.
+                            </p>
+                            <p class="text-white">
+                                <strong class="text-dark"
+                                    >Visione Creativa:</strong
+                                >
+                                Non siamo solo consulenti legali, ma anche
+                                innovatori. Con una forte visione creativa e un
+                                occhio per i dettagli, diamo vita alle vostre
+                                strategie legali, aiutandovi a prendere
+                                decisioni informate che guidano il successo
+                                della vostra impresa.
+                            </p>
+                            <p class="text-white">
+                                <strong class="text-dark"
+                                    >Servizi Completi:</strong
+                                >
+                                Dalla registrazione di società alla redazione di
+                                contratti commerciali, offriamo una vasta gamma
+                                di servizi legali che coprono tutti gli aspetti
+                                del diritto commerciale.
+                            </p>
+                            <p class="text-white">
+                                <strong class="text-dark"
+                                    >Affidabilità e Impegno:</strong
+                                >
+                                Siamo dedicati a fornirvi un servizio affidabile
+                                e professionale. La vostra soddisfazione è la
+                                nostra priorità, e ci impegniamo a superare le
+                                vostre aspettative in ogni fase del percorso
+                                legale.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Offer End -->
+
+        <!-- Contact Start -->
+        <div id="contact" class="container-fluid py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div
+                        class="col-xl-12 col-lg-12 wow slideInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <form action="thanks.html" method="get">
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <input
+                                        type="text"
+                                        class="form-control border-0 bg-light px-4"
+                                        placeholder="Nome"
+                                        style="height: 55px"
+                                        required
+                                    />
+                                </div>
+                                <div class="col-12">
+                                    <input
+                                        type="email"
+                                        class="form-control border-0 bg-light px-4"
+                                        placeholder="Email"
+                                        style="height: 55px"
+                                        id="email"
+                                        required
+                                    />
+                                    <div id="result" style="color: red"></div>
+                                </div>
+                                <div class="col-12">
+                                    <input
+                                        type="text"
+                                        class="form-control border-0 bg-light px-4"
+                                        placeholder="Oggetto"
+                                        style="height: 55px"
+                                        required
+                                    />
+                                </div>
+                                <div class="col-12">
+                                    <textarea
+                                        class="form-control border-0 bg-light px-4 py-3"
+                                        rows="5"
+                                        placeholder="Messaggio"
+                                        required
+                                    ></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Invia Messaggio
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light py-5 wow fadeInUp"
+            data-wow-delay="0.3s"
+            style="margin-top: -75px"
+        >
+            <div class="container pt-5">
+                <div class="row g-5 pt-4">
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-white mb-4">StatutoPro</h3>
+                        <div class="d-flex flex-column justify-content-start">
+                            <p>
+                                Benvenuti nel nostro studio legale specializzato
+                                in assistenza legale in ambito commerciale.
+                                Offriamo servizi di consulenza per la
+                                registrazione di società, creazione di un'entità
+                                giuridica e consulenze aziendali mirate alla
+                                gestione delle problematiche legali che le
+                                imprese possono affrontare.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-white mb-4">Link Popolari</h3>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2" href="index.html"
+                                ><i
+                                    class="bi bi-arrow-right text-primary me-2"
+                                ></i
+                                >Home</a
+                            >
+                            <a class="text-light mb-2" href="about.html"
+                                ><i
+                                    class="bi bi-arrow-right text-primary me-2"
+                                ></i
+                                >Chi Siamo</a
+                            >
+                            <a
+                                class="text-light mb-2"
+                                href="privacy-policy.html"
+                                ><i
+                                    class="bi bi-arrow-right text-primary me-2"
+                                ></i
+                                >Politica sulla Privacy</a
+                            >
+                            <a class="text-light mb-2" href="terms-of-use.html"
+                                ><i
+                                    class="bi bi-arrow-right text-primary me-2"
+                                ></i
+                                >Termini di Utilizzo</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-white mb-4">Contattaci</h3>
+
+                        <p class="mb-2">
+                            <i class="bi bi-envelope-open text-primary me-2"></i
+                            >statuto_pro@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consenso sui Cookie</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Questo sito web utilizza i cookie per offrirti un'esperienza
+                    di navigazione migliore e più rilevante.
+                    <a href="privacy-policy.html">Scopri di più...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accetta</button>
+                <button class="cookie-button" id="declineBtn">Rifiuta</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        <script src="lib/twentytwenty/jquery.event.move.js"></script>
+        <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
